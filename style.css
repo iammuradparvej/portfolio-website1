@@ -6,8 +6,13 @@
         "wdth" 100;
 }
 
+
 /* --------------------------------------------- */
 /* shared style */
+.secondary_background{
+    background-color: #FFF8F3;
+}
+
 .text_primary {
     color: #FD6E0A;
 }
@@ -24,15 +29,28 @@
     font-size: 20px;
     font-weight: 600;
     padding: 18px 36px;
+}
+
+.section_title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
 
 }
 
+.section_description{
+    font-size: 18px;
+    color: #757575;
+}
+
+/* ------------------------------------------------ */
 /* header style */
 .header{
     background-image: url(images/developer.png), url(images/header_bg.png) ;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+
 
 /* ------------------------------------------------- */
 /* Nav Styles */
@@ -67,8 +85,8 @@ nav ul {
 
 }
 
-/* ---------------------------------------------- */
 
+/* ---------------------------------------------- */
 /* banner style */
 .banner{
     /* background-color: lightpink; */
@@ -105,4 +123,44 @@ nav ul {
     width: 584px;
     /* height: 676px; */
     margin-right: 38px;
+}
+
+/* ----------------------------------- */
+/* Main Style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about me styel*/
+.section_title{
+    margin-bottom: 30px;
+}
+
+.section_description{
+    margin-bottom: 30px;
+}
+
+.about_me{
+    padding: 130px 156px;
+    text-align: center;
+    line-height: 30px;
+    margin-top:130px;
+}
+
+.about_items{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(230, 198, 173); */
+}
+
+.item_title{
+    /* background-color: lightcyan; */
+    margin: 0 auto;
+}
+
+.item_description{
+    /* background-color: lightgreen; */
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
 }
